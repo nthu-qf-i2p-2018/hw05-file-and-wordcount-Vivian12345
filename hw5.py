@@ -16,8 +16,6 @@ def main(filename):
         # check the format of words and append it to "all_words" list
             for word in words:
                 word = word.strip(string.punctuation)
-                
-                
                 if word:
                     all_words.append(word)
         
