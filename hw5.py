@@ -38,8 +38,6 @@ def main(filename):
         pickle.dump(counter, open("wordcount.pkl", 'wb'))
    
         
-
-    
- if __name__ == '__main__':
+if __name__ == '__main__':
     main("i_have_a_dream.txt")
 
