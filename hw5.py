@@ -40,6 +40,6 @@ def main(filename):
         
 
     
-   
-main("I_have_a_dream.txt")
+ if __name__ == '__main__':
+    main("i_have_a_dream.txt")
 
